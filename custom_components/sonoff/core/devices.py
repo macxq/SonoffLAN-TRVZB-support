@@ -429,6 +429,8 @@ DEVICES = {
         Battery,
     ],  # https://github.com/AlexxIT/SonoffLAN/issues/1166
     7016: [XHumanSensor, XLightSensor, XSensitivity, ZRSSI],  # SNZB-06P
+    #https://github.com/AlexxIT/SonoffLAN/issues/1498
+    7017: [ZRSSI,Battery ],  # TRVZB
     # SNZB-05P https://github.com/AlexxIT/SonoffLAN/issues/1496
     7019: [XWaterSensor, Battery],
 }
